@@ -1,0 +1,211 @@
+
+
+=== Run started at Thu 23 Jan 2025 19:26:51 PST ===
+19:26:51 📄 example.test.ts
+19:26:56 ● search for any product and add it to the cart
+19:26:56   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-01-24T03-26-56-782Z.png
+19:26:56 
+19:26:56 🤖 Prompt: Test: "search for any product and add it to the cart"
+19:26:56 Callback function:  [NO_CALLBACK]
+19:26:56 
+19:26:56 Expect:
+19:26:56 1. "search for any product and add it to the cart" expected to be successful
+19:26:56 
+19:26:56 Current Page State:
+19:26:56 URL: https://fragrancelord.com/
+19:26:56 Title: FragranceLord.com - Niche Fragrances, Luxury Perfumes, & Samples – Fragrancelord.com
+19:27:00 
+19:27:00 🤖 AI: Let me help execute this test case. First, I'll take a screenshot to locate the search functionality.
+19:27:00 
+19:27:00 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+19:27:00   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-01-24T03-27-00-645Z.png
+19:27:05 
+19:27:05 🤖 AI: I see there's a popup and a search bar. Let me first close the popup by clicking the close button, then proceed with the search.
+19:27:05 
+19:27:05 🔧 Tool Request: {
+19:27:05   tool: 'computer',
+19:27:05   input: { action: 'mouse_move', coordinate: [ 895, 292 ] }
+19:27:05 }
+19:27:09 
+19:27:09 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+19:27:14 
+19:27:14 🤖 AI: Now, let me click on the search bar and search for a product.
+19:27:14 
+19:27:14 🔧 Tool Request: {
+19:27:14   tool: 'computer',
+19:27:14   input: { action: 'mouse_move', coordinate: [ 685, 69 ] }
+19:27:14 }
+19:27:18 
+19:27:18 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+19:27:22 
+19:27:22 🔧 Tool Request: {
+19:27:22   tool: 'computer',
+19:27:22   input: { action: 'type', text: 'Tom Ford Tobacco Vanille' }
+19:27:22 }
+19:27:27 
+19:27:27 🤖 AI: Now, let me click the search button.
+19:27:27 
+19:27:27 🔧 Tool Request: {
+19:27:27   tool: 'computer',
+19:27:27   input: { action: 'mouse_move', coordinate: [ 905, 69 ] }
+19:27:27 }
+19:27:30 
+19:27:30 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+19:27:31 
+19:27:31 ❌ Browser Action Failed: page.evaluate: Execution context was destroyed, most likely because of a navigation
+19:27:31     at showClickAnimation (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:953:14)
+19:27:31     at click (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:943:9)
+19:27:31     at async BrowserTool.clickAtCoordinates (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1150:5)
+19:27:31     at async BrowserTool.execute (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1162:11)
+19:27:31     at /Users/rmarescu/code/rmarescu/shortest-example-289/async file:/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:727:40
+19:27:31     at async AIClient.makeRequest (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:712:31)
+19:27:31     at async AIClient.processAction (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:646:16)
+19:27:31     at async TestRunner.executeTest (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2555:20)
+19:27:31     at async TestRunner.executeTestFile (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2609:26)
+19:27:31     at async TestRunner.runTests (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2648:7)
+19:27:31     at async main (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2824:5) {
+19:27:31   name: 'Error'
+19:27:31 }
+19:27:31 Error executing browser tool: ToolError: Action failed: Error: page.evaluate: Execution context was destroyed, most likely because of a navigation
+19:27:31     at BrowserTool.execute (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1457:13)
+19:27:31     at runNextTicks (node:internal/process/task_queues:60:5)
+19:27:31     at process.processImmediate (node:internal/timers:449:9)
+19:27:31     at process.callbackTrampoline (node:internal/async_hooks:130:17)
+19:27:31     at async file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:727:40
+19:27:31     at async Promise.all (index 0)
+19:27:31     at async AIClient.makeRequest (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:712:31)
+19:27:31     at async AIClient.processAction (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:646:16)
+19:27:31     at async TestRunner.executeTest (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2555:20)
+19:27:31     at async TestRunner.executeTestFile (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2609:26)
+19:27:31   Retry attempt 1/3
+19:27:36 
+19:27:36 🤖 Prompt: Test: "search for any product and add it to the cart"
+19:27:36 Callback function:  [NO_CALLBACK]
+19:27:36 
+19:27:36 Expect:
+19:27:36 1. "search for any product and add it to the cart" expected to be successful
+19:27:36 
+19:27:36 Current Page State:
+19:27:36 URL: https://fragrancelord.com/
+19:27:36 Title: FragranceLord.com - Niche Fragrances, Luxury Perfumes, & Samples – Fragrancelord.com
+19:27:39 
+19:27:39 🤖 AI: Let me help execute this test case. First, I'll take a screenshot to locate the search box.
+19:27:39 
+19:27:39 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+19:27:39   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-01-24T03-27-39-739Z.png
+19:27:44 
+19:27:44 🤖 AI: I can see three Tom Ford Tobacco Vanille products. I'll select the Body Spray since it's the most affordable option. Let me click on it.
+19:27:44 
+19:27:44 🔧 Tool Request: {
+19:27:44   tool: 'computer',
+19:27:44   input: { action: 'mouse_move', coordinate: [ 431, 440 ] }
+19:27:44 }
+19:27:48 
+19:27:48 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+19:27:48 
+19:27:48 ❌ Browser Action Failed: page.evaluate: Execution context was destroyed, most likely because of a navigation
+19:27:48     at showClickAnimation (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:953:14)
+19:27:48     at click (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:943:9)
+19:27:48     at async BrowserTool.clickAtCoordinates (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1150:5)
+19:27:48     at async BrowserTool.execute (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1162:11)
+19:27:48     at /Users/rmarescu/code/rmarescu/shortest-example-289/async file:/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:727:40
+19:27:48     at async AIClient.makeRequest (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:712:31)
+19:27:48     at async AIClient.processAction (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:646:16)
+19:27:48     at async TestRunner.executeTest (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2555:20)
+19:27:48     at async TestRunner.executeTestFile (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2609:26)
+19:27:48     at async TestRunner.runTests (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2648:7)
+19:27:48     at async main (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2824:5) {
+19:27:48   name: 'Error'
+19:27:48 }
+19:27:48 Error executing browser tool: ToolError: Action failed: Error: page.evaluate: Execution context was destroyed, most likely because of a navigation
+19:27:48     at BrowserTool.execute (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1457:13)
+19:27:48     at runNextTicks (node:internal/process/task_queues:60:5)
+19:27:48     at process.processImmediate (node:internal/timers:449:9)
+19:27:48     at process.callbackTrampoline (node:internal/async_hooks:130:17)
+19:27:48     at async file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:727:40
+19:27:48     at async Promise.all (index 0)
+19:27:48     at async AIClient.makeRequest (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:712:31)
+19:27:48     at async AIClient.processAction (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:646:16)
+19:27:48     at async TestRunner.executeTest (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2555:20)
+19:27:48     at async TestRunner.executeTestFile (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2609:26)
+19:27:48   Retry attempt 2/3
+19:27:58 
+19:27:58 🤖 Prompt: Test: "search for any product and add it to the cart"
+19:27:58 Callback function:  [NO_CALLBACK]
+19:27:58 
+19:27:58 Expect:
+19:27:58 1. "search for any product and add it to the cart" expected to be successful
+19:27:58 
+19:27:58 Current Page State:
+19:27:58 URL: https://fragrancelord.com/
+19:27:58 Title: FragranceLord.com - Niche Fragrances, Luxury Perfumes, & Samples – Fragrancelord.com
+19:28:01 
+19:28:01 🤖 AI: Let me help execute this test case by first taking a screenshot to locate the search functionality.
+19:28:01 
+19:28:01 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+19:28:02   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-01-24T03-28-01-890Z.png
+19:28:07 
+19:28:07 🤖 AI: I see the search bar at the top of the page. Let me click on it and search for a product.
+19:28:07 
+19:28:07 🔧 Tool Request: {
+19:28:07   tool: 'computer',
+19:28:07   input: { action: 'mouse_move', coordinate: [ 680, 69 ] }
+19:28:07 }
+19:28:11 
+19:28:11 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+19:28:15 
+19:28:15 🔧 Tool Request: { tool: 'computer', input: { action: 'type', text: 'Creed Aventus' } }
+19:28:19 
+19:28:19 🔧 Tool Request: { tool: 'computer', input: { action: 'key', text: 'Return' } }
+19:28:24 
+19:28:24 🔧 Tool Request: { tool: 'sleep', input: { action: 'sleep', duration: 3000 } }
+19:28:24 ⏳ Waiting for 3 seconds...
+19:28:30 
+19:28:30 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+19:28:30   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-01-24T03-28-30-714Z.png
+19:28:35 
+19:28:35 🤖 AI: I see several Creed Aventus products. Let me select the first one (Creed Aventus Cologne Eau De Parfum Spray) by clicking on it.
+19:28:35 
+19:28:35 🔧 Tool Request: {
+19:28:35   tool: 'computer',
+19:28:35   input: { action: 'mouse_move', coordinate: [ 180, 441 ] }
+19:28:35 }
+19:28:39 
+19:28:39 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+19:28:40 
+19:28:40 ❌ Browser Action Failed: page.evaluate: Execution context was destroyed, most likely because of a navigation
+19:28:40     at showClickAnimation (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:953:14)
+19:28:40     at click (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:943:9)
+19:28:40     at async BrowserTool.clickAtCoordinates (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1150:5)
+19:28:40     at async BrowserTool.execute (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1162:11)
+19:28:40     at /Users/rmarescu/code/rmarescu/shortest-example-289/async file:/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:727:40
+19:28:40     at async AIClient.makeRequest (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:712:31)
+19:28:40     at async AIClient.processAction (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:646:16)
+19:28:40     at async TestRunner.executeTest (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2555:20)
+19:28:40     at async TestRunner.executeTestFile (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2609:26)
+19:28:40     at async TestRunner.runTests (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2648:7)
+19:28:40     at async main (/Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2824:5) {
+19:28:40   name: 'Error'
+19:28:40 }
+19:28:40 Error executing browser tool: ToolError: Action failed: Error: page.evaluate: Execution context was destroyed, most likely because of a navigation
+19:28:40     at BrowserTool.execute (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:1457:13)
+19:28:40     at runNextTicks (node:internal/process/task_queues:60:5)
+19:28:40     at process.processImmediate (node:internal/timers:449:9)
+19:28:40     at process.callbackTrampoline (node:internal/async_hooks:130:17)
+19:28:40     at async file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:727:40
+19:28:40     at async Promise.all (index 0)
+19:28:40     at async AIClient.makeRequest (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:712:31)
+19:28:40     at async AIClient.processAction (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:646:16)
+19:28:40     at async TestRunner.executeTest (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2555:20)
+19:28:40     at async TestRunner.executeTestFile (file:///Users/rmarescu/code/rmarescu/shortest-example-289/node_modules/@antiwork/shortest/dist/cli/bin.js:2609:26)
+19:28:40   ✗ failed
+19:28:40 
+19:28:40 Test Execution Error: Action failed: Error: page.evaluate: Execution context was destroyed, most likely because of a navigation
+19:28:40 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 
+19:28:40 
+19:28:40  Tests          1 failed | 0 passed (1)
+19:28:40  Duration       108.24s
+19:28:40  Started at     7:26:51 p.m.
+19:28:40  Tokens         0 tokens (≈ $0.00)
+19:28:40 
+19:28:40  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
