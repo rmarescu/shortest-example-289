@@ -1,0 +1,279 @@
+{
+  "ee7d43295e0286bbef45795cf75b66c34a8727d67b407de26656efae8f6d69c7": {
+    "data": {
+      "steps": [
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01RJUsbVmxBWkxqUnC1nAfuN",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738476457302
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01AVerFSNeAGgXzpsvCfjMFv",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                895,
+                291
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (895, 291)",
+          "result": "Mouse moved to (895, 291)",
+          "extras": {
+            "componentStr": "<div></div>"
+          },
+          "timestamp": 1738476461377
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01LfcH2jbvXA2LWYR1JNtsdE",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (895, 291)",
+          "result": "left_click at (895, 291)",
+          "extras": {},
+          "timestamp": 1738476464806
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01Lh61JAG582eAk4ARftrP69",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                684,
+                69
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (684, 69)",
+          "result": "Mouse moved to (684, 69)",
+          "extras": {
+            "componentStr": "<input type=\"search\" name=\"q\" placeholder=\"Search the store\">"
+          },
+          "timestamp": 1738476468237
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01C3KU6Vwt9K4fShe3cSrxCK",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (684, 69)",
+          "result": "left_click at (684, 69)",
+          "extras": {},
+          "timestamp": 1738476476224
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01E6BeQE5EnFHvxK8EmfQVzk",
+            "name": "computer",
+            "input": {
+              "action": "type",
+              "text": "tom ford oud wood"
+            }
+          },
+          "reasoning": "Typed: tom ford oud wood",
+          "result": "Typed: tom ford oud wood",
+          "extras": {},
+          "timestamp": 1738476479991
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01BnUcaD9BXpaecUpP4FkZcm",
+            "name": "computer",
+            "input": {
+              "action": "key",
+              "text": "Return"
+            }
+          },
+          "reasoning": "Pressed key: Return",
+          "result": "Pressed key: Return",
+          "extras": {},
+          "timestamp": 1738476483265
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01PaH3PyjLtqyLimaVt75iCV",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738476486823
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01HX9bkfjuWDCNi94M3yFzhn",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                178,
+                440
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (178, 440)",
+          "result": "Mouse moved to (178, 440)",
+          "extras": {
+            "componentStr": "<img alt=\"\">"
+          },
+          "timestamp": 1738476490906
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01Y8Dc8Uyzmod6gbZBSTYPei",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (178, 440)",
+          "result": "left_click at (178, 440)",
+          "extras": {},
+          "timestamp": 1738476495069
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_012hpyRYsomRDwG64p5tiMUd",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738476498054
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01HqdApmh8ccUGe6zgw3dekW",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                1005,
+                494
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (1005, 494)",
+          "result": "Mouse moved to (1005, 494)",
+          "extras": {
+            "componentStr": "<span><span><img> 3.4 oz (100 ml)</span> <span>$324.78</span></span>"
+          },
+          "timestamp": 1738476502015
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01SGfM8zVbuFnC7kdxu6R8W2",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (1005, 494)",
+          "result": "left_click at (1005, 494)",
+          "extras": {},
+          "timestamp": 1738476511981
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_01BTbYBAkmvijyweCN3x7Ean",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738476515402
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_015znwAuTNYFxoKgHdpEUc6i",
+            "name": "computer",
+            "input": {
+              "action": "mouse_move",
+              "coordinate": [
+                1235,
+                70
+              ]
+            }
+          },
+          "reasoning": "Mouse moved to (1235, 70)",
+          "result": "Mouse moved to (1235, 70)",
+          "extras": {
+            "componentStr": "<button aria-label=\"Search\"><svg role=\"img\"><path d=\"M495,466.2L377.2,348.4c29.2-35.6,46.8-81.2,46.8-130.9C424,103.5,331.5,11,217.5,11C103.4,11,11,103.5,11,217.5 S103.4,424,217.5,424c49.7,0,95.2-17.5,130.8-46.7L466.1,495c8,8,20.9,8,28.9,0C503,487.1,503,474.1,495,466.2z M217.5,382.9 C126.2,382.9,52,308.7,52,217.5S126.2,52,217.5,52C308.7,52,383,126.3,383,217.5S308.7,382.9,217.5,382.9z\"></path></svg></button>"
+          },
+          "timestamp": 1738476520285
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_0166EjcNRhAur2MGFrPs2hfa",
+            "name": "computer",
+            "input": {
+              "action": "left_click"
+            }
+          },
+          "reasoning": "left_click at (1235, 70)",
+          "result": "left_click at (1235, 70)",
+          "extras": {},
+          "timestamp": 1738476528255
+        },
+        {
+          "action": {
+            "type": "tool_use",
+            "id": "toolu_0184SG12UNJaU34Pbe4rqXHW",
+            "name": "computer",
+            "input": {
+              "action": "screenshot"
+            }
+          },
+          "reasoning": "Screenshot taken",
+          "result": "Screenshot taken",
+          "extras": {},
+          "timestamp": 1738476531167
+        }
+      ],
+      "timestamp": 1738476535843
+    }
+  }
+}

@@ -209,3 +209,113 @@
 19:28:40  Tokens         0 tokens (≈ $0.00)
 19:28:40 
 19:28:40  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+
+=== Run started at Sat  1 Feb 2025 22:07:29 PST ===
+22:07:30 📄 example.test.ts
+22:07:34 ● search for any product and add it to the cart
+22:07:34   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-02-02T06-07-34-029Z.png
+22:07:34 
+22:07:34 🤖 Prompt: Test: "search for any product and add it to the cart"
+22:07:34 Callback function:  [NO_CALLBACK]
+22:07:34 
+22:07:34 Expect:
+22:07:34 1. "search for any product and add it to the cart" expected to be successful
+22:07:34 
+22:07:34 Current Page State:
+22:07:34 URL: https://fragrancelord.com/
+22:07:34 Title: FragranceLord.com - Niche Fragrances, Luxury Perfumes, & Samples – Fragrancelord.com
+22:07:37 
+22:07:37 🤖 AI: Let me take a screenshot first to locate the search functionality.
+22:07:37 
+22:07:37 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+22:07:37   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-02-02T06-07-37-227Z.png
+22:07:41 
+22:07:41 🤖 AI: I see there are some popups. Let me close them first. I'll click the close button (x) on the location popup.
+22:07:41 
+22:07:41 🔧 Tool Request: {
+22:07:41   tool: 'computer',
+22:07:41   input: { action: 'mouse_move', coordinate: [ 895, 291 ] }
+22:07:41 }
+22:07:43 
+22:07:43 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+22:07:47 
+22:07:47 🤖 AI: Now let me move to the search box and search for a product.
+22:07:47 
+22:07:47 🔧 Tool Request: {
+22:07:48   tool: 'computer',
+22:07:48   input: { action: 'mouse_move', coordinate: [ 684, 69 ] }
+22:07:48 }
+22:07:51 
+22:07:51 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+22:07:59 
+22:07:59 🔧 Tool Request: {
+22:07:59   tool: 'computer',
+22:07:59   input: { action: 'type', text: 'tom ford oud wood' }
+22:07:59 }
+22:08:02 
+22:08:02 🤖 AI: Now press enter to search:
+22:08:02 
+22:08:02 🔧 Tool Request: { tool: 'computer', input: { action: 'key', text: 'Return' } }
+22:08:06 
+22:08:06 🤖 AI: Let me take a screenshot to see the search results and find an "Add to Cart" button:
+22:08:06 
+22:08:06 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+22:08:06   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-02-02T06-08-06-760Z.png
+22:08:10 
+22:08:10 🤖 AI: I'll click on the first Tom Ford Oud Wood perfume to see its details:
+22:08:10 
+22:08:10 🔧 Tool Request: {
+22:08:10   tool: 'computer',
+22:08:10   input: { action: 'mouse_move', coordinate: [ 178, 440 ] }
+22:08:10 }
+22:08:14 
+22:08:14 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+22:08:18 
+22:08:18 🤖 AI: Let me take a screenshot to locate the "Add to Cart" button:
+22:08:18 
+22:08:18 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+22:08:18   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-02-02T06-08-17-988Z.png
+22:08:21 
+22:08:21 🤖 AI: I'll click the "ADD TO CART" button:
+22:08:21 
+22:08:21 🔧 Tool Request: {
+22:08:21   tool: 'computer',
+22:08:21   input: { action: 'mouse_move', coordinate: [ 1005, 494 ] }
+22:08:21 }
+22:08:26 
+22:08:26 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+22:08:35 
+22:08:35 🤖 AI: Let me take a final screenshot to confirm the item was added to cart:
+22:08:35 
+22:08:35 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+22:08:35   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-02-02T06-08-35-319Z.png
+22:08:40 
+22:08:40 🤖 AI: I can see that the cart icon in the top right now shows "1" indicating the item was successfully added to cart. Let me verify this by clicking the cart icon:
+22:08:40 
+22:08:40 🔧 Tool Request: {
+22:08:40   tool: 'computer',
+22:08:40   input: { action: 'mouse_move', coordinate: [ 1235, 70 ] }
+22:08:40 }
+22:08:43 
+22:08:43 🔧 Tool Request: { tool: 'computer', input: { action: 'left_click' } }
+22:08:51 
+22:08:51 🔧 Tool Request: { tool: 'computer', input: { action: 'screenshot' } }
+22:08:51   Screenshot saved to: /Users/rmarescu/code/rmarescu/shortest-example-289/.shortest/screenshots/screenshot-2025-02-02T06-08-51-112Z.png
+22:08:55 
+22:08:55 🤖 AI: The test was successful as I was able to:
+22:08:55 1. Search for a product (Tom Ford Oud Wood)
+22:08:55 2. Select the product
+22:08:55 3. Add it to the cart successfully (verified by the cart icon showing "1")
+22:08:55 
+22:08:55 {"result": "pass", "reason": "Successfully searched for Tom Ford Oud Wood perfume and added it to cart"}
+22:08:55   ✓ passed
+22:08:55     ↳ 12,466 tokens (≈ $0.04)
+22:08:55 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ 
+22:08:55 
+22:08:55  Tests          1 passed (1)
+22:08:55  Duration       85.98s
+22:08:56  Started at     10:07:29 p.m.
+22:08:56  Tokens         12,466 tokens (≈ $0.04)
+22:08:56 
+22:08:56  ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
